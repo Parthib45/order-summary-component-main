@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Red Hat Display', sans-serif; */
+body {
+    display: grid;
+    place-items: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    height: fit-content;
+    margin-top: 5%;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.hero {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 2rem 1rem 0 1rem;
+
+}
+
+.details {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 13px;
+    /* font-weight: 500; */
+
+    padding: 1rem;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+
+
+}
+
+
+.flex-main {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 75%;
+
+
+
+}
+
+.flex-main p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+    justify-content: flex-start;
+
+
+    
+}
+
+.flex-main img {
+    width: 2.5rem;
+    padding-right: 1rem;
+
+
+
+}
+
+.flex-main p:nth-child(3) {
+    color: hsl(245, 75%, 52%);
+    padding-left: 3.8rem;
+    padding-top: 0.5rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 13px;
+    justify-content: space-between;
+
+
+
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 17rem;
+
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none transparent;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+button:nth-child(1) {
+    margin: 1rem;
+}
+
+button:nth-child(2) {
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+button:hover {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    cursor: pointer;
+    border-radius: 10px;
+  
+
+}
+
+@media (max-width: 375px) {
+    body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    }
+    
+}
